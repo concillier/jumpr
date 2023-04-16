@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name = "viewport" content="width = device_width, initial-scale= 1.0">
+
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <title> {% block title %}{% endblock %} | Concillier </title> 
+
+    </head>
+
+    <body>
+
+				{% block content %}
+
+		        <!-- Dynamic contents will show here -->
+
+	       {% endblock content %}
+		
+    </body>
+
+
+    <footer>
+    </footer>
+
+</html>
